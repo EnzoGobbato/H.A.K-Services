@@ -130,8 +130,6 @@
     text-align: initial;
     font-size: x-large;
     font-weight: 500;
-    padding-top: 0.3rem;
-    margin-bottom: -3rem;
 
   }
   
@@ -147,7 +145,7 @@
   footer .social_icons li,
   footer .menu_footer li{
     list-style: none;
-    margin: 0 5rem;
+    margin: 0 2rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -156,9 +154,12 @@
 
   }
   
-  footer .social_icons li a{
-    font-size: 8em;
-    display: inline-block;
+  footer .social_icons li {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     transition: 0.5s;
     color: black;
   }
