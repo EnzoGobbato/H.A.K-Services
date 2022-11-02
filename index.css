@@ -129,10 +129,16 @@
     font-family: 'Montserrat', sans-serif;
     text-align: initial;
     font-size: x-large;
-    font-weight: 500;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 1rem;
 
   }
   
+  .contacto h6{
+    text-decoration: dotted;
+  }
+
   .footer .social_icons{
   position: relative;
   display: flex;
@@ -156,10 +162,10 @@
   
   footer .social_icons li {
 
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 2rem;
     transition: 0.5s;
     color: black;
   }
@@ -244,6 +250,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+    }
+
+    .map{
         width: 100%;
     }
 }
